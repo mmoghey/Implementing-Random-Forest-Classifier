@@ -280,14 +280,6 @@ class DecisionTree(object):
         This function grows the Decision Tree recursively until the stopping
         criterion is met. Please see textbook p164 for more details
 
-        This function should return a TreeNode
-        """
-        # Your code here
-        # Hint-1: Test whether the stopping criterion has been met by calling function stopping_cond()
-        # Hint-2: If the stopping criterion is met, you may need to create a leaf node
-        # Hint-3: If the stopping criterion is not met, you may need to create a
-        #         TreeNode, then split the records into two parts and build a
-        #         child node for each part of the subset
         root = TreeNode()
         sample_records=[]
 
